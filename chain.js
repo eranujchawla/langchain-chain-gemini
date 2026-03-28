@@ -19,7 +19,7 @@ const chain = prompt.pipe(model);
 
 try {
   const response = await chain.invoke({
-    question: "tell me business model for global solutions team company based out in Etobicoke, Ontario",
+    question: "How is the situation in Iraq?",
   });
 
   console.log(response.content);

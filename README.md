@@ -20,5 +20,8 @@ npm install -D nodemon
 # 5. Clean npm cache
 npm cache clean --force
 
-# 6. Run the project
+# 6. Provide your Google Gemini in env file
+GOOGLE_API_KEY={{Use your key here}}
+
+# 7. Run the project
 node chain.js
